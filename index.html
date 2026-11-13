@@ -48,6 +48,8 @@ button:disabled{opacity:.5}
 .board table{width:100%;border-collapse:collapse}.board th,.board td{border:0;padding:2px 6px;background:transparent;position:static;text-align:center;color:inherit}.board td:first-child,.board th:first-child{text-align:left;position:static;background:transparent}
 .pd{padding:6px 0;border-bottom:1px solid var(--line);font-size:15px}.pd .sub{display:block}
 </style>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
 </head>
 <body>
 <main id="app"></main>
@@ -766,5 +768,6 @@ if(g&&!g.done)wake();
 ['away','home'].forEach(function(t){setup[t].bat=setup[t].bat||[]});
 render();
 </script>
+<script>if("serviceWorker" in navigator&&location.protocol.indexOf("http")===0)window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})});</script>
 </body>
 </html>
