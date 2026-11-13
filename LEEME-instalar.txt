@@ -1,0 +1,9 @@
+BOXSCORE DE PELOTA - INSTALAR COMO APP (sin internet después de la primera vez)
+
+1) Sube TODOS los archivos de esta carpeta a un sitio web con https. Opciones gratis y sencillas:
+   - Netlify Drop (arrastras la carpeta) o GitHub Pages.
+2) En el teléfono, abre la dirección en Chrome. Toca los tres puntos y elige "Instalar app" o "Agregar a pantalla de inicio".
+3) Ábrela una vez con internet. Desde ahí funciona sin conexión.
+
+ACTUALIZAR: cuando recibas un index.html nuevo, súbelo en lugar del anterior. La app se actualiza sola la siguiente vez que la abras con internet.
+RESPALDO: dentro de la app, en "Historial, temporada y respaldo", usa "Guardar respaldo en archivo". Guarda el archivo en tu nube o mándatelo por WhatsApp.
